@@ -63,33 +63,33 @@ const ContactUs = () => {
                     <div className="serform-container">
                         <form>
                         <label htmlFor="name">NAME</label>
-            <input
-                type="text"
-                id="name"
-                placeholder="Enter your name"
-                value={name} // Binds state to input
-                onChange={(e) => set_name(e.target.value)} // Updates state
-                required
-            />
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Enter your name"
+                                value={name} // Binds state to input
+                                onChange={(e) => set_name(e.target.value)} // Updates state
+                                required
+                            />
 
-            <label htmlFor="email">EMAIL ADDRESS</label>
-            <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-                value={email} // Binds state to input
-                onChange={(e) => set_email(e.target.value)} // Updates state
-                required
-            />
+                            <label htmlFor="email">EMAIL ADDRESS</label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                value={email} // Binds state to input
+                                onChange={(e) => set_email(e.target.value)} // Updates state
+                                required
+                            />
 
-            <label htmlFor="date">DATE</label>
-            <input
-                type="date"
-                id="date"
-                value={date} // Binds state to input
-                onChange={(e) => set_date(e.target.value)} // Updates state
-                required
-            />
+                            <label htmlFor="date">DATE</label>
+                            <input
+                                type="date"
+                                id="date"
+                                value={date} // Binds state to input
+                                onChange={(e) => set_date(e.target.value)} // Updates state
+                                required
+                            />
 
                             <button onClick={send}>Scheduling A Consultation</button>
                         </form>

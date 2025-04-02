@@ -109,6 +109,7 @@ body {
   position: relative; /* Position relative to add the custom line */
   margin-top: 28px; /* Remove unnecessary space above */
   margin-bottom: 8px; /* Add spacing below the header */
+  margin-left: 30px;
   font-size: 2rem; /* Adjust font size as needed */
   text-align: left; /* Align text to the left */
   text-decoration: none; /* Remove any text underline */
@@ -119,7 +120,7 @@ body {
 .usp h2::after {
   content: ""; /* Empty content for the custom line */
   display: block;
-  width: 50px; /* Width of the line, matching the "Our" text length */
+  width: 120px; /* Width of the line, matching the "Our" text length */
   height: 4px; /* Thickness of the line */
   background-color: #6C1E3C; /* Line color */
   border-radius: 5px;
@@ -128,6 +129,7 @@ body {
 
 .usp-stats {
   display: flex;
+  margin-left: 15px;
   justify-content: space-between;
   gap: 2%; /* Adds 4% margin between the boxes */
   padding: 0 2%; /* Adds 4% margin to the left and right */
@@ -156,12 +158,12 @@ body {
 
 .stat-item h3 {
   margin: 0;
-  padding: 5px 20px;  /* Added horizontal padding to ensure text aligns to the left */
+  padding: 5px;  /* Added horizontal padding to ensure text aligns to the left */
   color: #fff;         /* White text for better contrast */
   text-align: left;    /* Align text to the left */
   position: absolute;
   top: 50%;
-  left: 10%;  /* Adjust this value as necessary to fine-tune left alignment */
+  left: 5%;  /* Adjust this value as necessary to fine-tune left alignment */
   transform: translateY(-50%);  /* Vertically center text */
   width: 80%;  /* Set width to control the text box */
   box-sizing: border-box;
@@ -169,25 +171,40 @@ body {
   overflow: hidden;
 }
 
+.stat-item h1 {
+  margin: 0;
+  padding: 5px;  /* Added horizontal padding to ensure text aligns to the left */
+  color: #fff;         /* White text for better contrast */
+  text-align: left;    /* Align text to the left */
+  position: absolute;
+  top: 50%;
+  left: 5%;  /* Adjust this value as necessary to fine-tune left alignment */
+  transform: translateY(-50%);  /* Vertically center text */
+  width: 80%;  /* Set width to control the text box */
+  box-sizing: border-box;
+  line-height: 1.4;  /* Adds space between lines of text */
+  overflow: hidden;
+  font-size: 2rem;
+}
 .stat-item h3:first-child {
-  font-size: 1.5rem;
+  font-size: 2rem;
   transform: translateY(-28px);
 }
 
 .stat-item h3:nth-child(2) {
-  font-size: 1rem;
-  transform: translateY(+1px);
+  font-size: 1.5rem;
+  transform: translateY(+9px);
 }
 
 .stat-item h3:last-child {
-  font-size: 1.5rem;
-  transform: translateY(+7px);
+  font-size: 1rem;
+  transform: translateY(+16px);
 }
 .stat-item h3.explore-link {
   font-size: 1rem; /* Smaller font size for the link */
-  color: #fff; /* Use a distinct color for the link */
+  color: #e6ee04; /* Use a distinct color for the link */
   text-align: left; /* Align text to the left */
-  margin-top: 10px; /* Add spacing above the link */
+  margin-top: 30px; /* Add spacing above the link */
   text-decoration: none; /* Remove underline */
   cursor: pointer; /* Show pointer cursor on hover */
 }

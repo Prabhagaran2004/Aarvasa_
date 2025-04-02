@@ -24,14 +24,6 @@ function App() {
     return () => {
       document.body.classList.remove("no-scroll"); // Cleanup
     };
-
-
-    
-
-
-
-
-
   },[show_window]);
 
   let back_to_normal = ()=>{
@@ -127,34 +119,35 @@ function App() {
 
 
 {/* USP Section */}
+ 
 <section className="usp">
   <h2>We’ve got properties for everyone</h2>
   <div className="usp-stats">
-    <div className="stat-item">
-      <img src="/image.png" alt="Owner Properties" />
-      <h3>1022</h3>
-      <h3>Owner Properties</h3>
-      <h3 className="explore-link"><a href="/owner-properties">Explore →</a></h3>
-    </div>
-    <div className="stat-item">
-      <img src="/image(3).png" alt="Projects" />
-      <h3>182</h3>
-      <h3>Projects</h3>
-      <h3 className="explore-link"><a href="/projects">Explore →</a></h3>
-    </div>
-    <div className="stat-item">
-      <img src="/image(2).png" alt="Ready to Move-In" />
-      <h3>2364</h3>
-      <h3>Ready to move-in</h3>
-      <h3 className="explore-link"><a href="/ready-to-move-in">Explore →</a></h3>
-    </div>
-    <div className="stat-item">
-      <img src="/image(1).png" alt="Budget Homes" />
-      <h3>3222</h3>
-      <h3>Budget Homes</h3>
-      <h3 className="explore-link"><a href="/budget-homes">Explore →</a></h3>
-    </div>
-  </div>
+        <div className="stat-item">
+          <img src="/image.png" alt="Owner Properties" />
+          <h3>Owner Properties</h3>
+          <h1>1022</h1>
+          <h3 className="explore-link"><a href="/owner-properties">Explore More →</a></h3>
+        </div>
+        <div className="stat-item">
+          <img src="/image(3).png" alt="Projects" />
+          <h3>Projects</h3>
+          <h1>182</h1>
+          <h3 className="explore-link"><a href="/projects">Explore More →</a></h3>
+        </div>
+        <div className="stat-item">
+          <img src="/image(2).png" alt="Ready to Move-In" />
+          <h3>Ready to move-in</h3>
+          <h1>2364</h1>
+          <h3 className="explore-link"><a href="/ready-to-move-in">Explore More →</a></h3>
+        </div>
+        <div className="stat-item">
+          <img src="/image(1).png" alt="Budget Homes" />
+          <h3>Budget Homes</h3>
+          <h1>3222</h1>
+          <h3 className="explore-link"><a href="/budget-homes">Explore More →</a></h3>
+        </div>
+      </div>
 </section>
 
 {/**/}

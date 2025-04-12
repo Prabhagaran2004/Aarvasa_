@@ -69,12 +69,12 @@
   gap: 30px ;
 }
 .sermarooncontactus{
-  background-color: #6C1E3C;
+  background: linear-gradient(273.52deg, #F7A240 -9.2%, #F5C01A 105.38%);
   text-align: center;
   width: max-content;
   height: max-content;
   border-radius:8%;
-  color: #F9F9F9;
+  color: #000000;
   font-family:"inter" ;
   font-weight: 700;
   font-size:medium;
@@ -84,6 +84,7 @@
   background-color: #FFFCF2;
   border-color: #6C1E3C;
   border-radius: 8%;
+  border: 2px solid;
   border-width: 2px;
   font-family: "inter";
   font-size: medium;
@@ -193,8 +194,9 @@ margin-bottom: 0;
 .serbookdemo {
   margin-top: 5%;
   width: 85%; 
+  color: white;
   height: auto;
-  background: #C1A57B;
+  background: #902943;
   margin-left: 5%; 
   margin-right: 5%;
   display: flex;
@@ -215,7 +217,7 @@ margin-bottom: 0;
 }
 
 .serbookdemobutton {
-  background-color: #6C1E3C;
+  background: linear-gradient(273.52deg, #F7A240 -9.2%, #F5C01A 105.38%);
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -230,7 +232,7 @@ margin-bottom: 0;
 }
 
 .serbuttoncontent {
-  color: #F9F9F9;
+  color: #000000;
   font-family: "inter";
   font-size: medium; 
   font-weight: 700;

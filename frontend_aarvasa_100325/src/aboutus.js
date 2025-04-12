@@ -33,22 +33,24 @@ const AboutUs = () => {
             <p>
                 <strong>So We Are Aarvasa</strong>, we are more than just real estate professionals — we are your 
                 partners in creating a better future. With a passion for helping individuals and families find 
-                their dream homes, we combine expertise, integrity, and innovation to deliver exceptional results. 
-                Our team consists of seasoned professionals with deep roots in the community and a comprehensive 
-                understanding of the real estate market. Whether you're buying your first home, upgrading to a 
-                larger space, or investing in properties, we are dedicated to guiding you every step of the way.
+                their dream homes, we combine expertise, integrity, and innovation to deliver exceptional results.
+                <p>
+                  Our team consists of seasoned professionals with deep roots in the community and a comprehensive 
+                  understanding of the real estate market. Whether you're buying your first home, upgrading to a 
+                  larger space, or investing in properties, we are dedicated to guiding you every step of the way.
+                </p>
             </p>
         </div>
         </div>
             <div className="mission-hea">
-                <h2>Connecting People with Perfect Properties and Smart Investments</h2>
+                <h2>"Connecting People with Perfect Properties and Smart Investments"</h2>
             </div>
             
             <div className="mission-vision">
     <div className="left-column">
         <div className="card mission">
             <h3>Our Mission</h3>
-            <p>
+            <p style={{color : 'white'}}>
                 "To democratize real estate investments by offering innovative solutions like flexible payment 
                 plans, AR/VR property tours, and eco-conscious property insights, while providing a seamless 
                 experience for buyers, sellers, and renters to maximize their returns and achieve financial 
@@ -57,7 +59,7 @@ const AboutUs = () => {
         </div>
         <div className="card vision">
             <h3>Our Vision</h3>
-            <p>
+            <p style={{color : 'white'}}>
                 "To revolutionize real estate accessibility by creating a one-stop platform that empowers 
                 individuals to invest, lease, and manage properties effortlessly while fostering financial 
                 growth and sustainability."
@@ -66,7 +68,7 @@ const AboutUs = () => {
     </div>
     <div className="right-column">
         <div className="card center-card">
-            <p><strong>Aarvasa</strong> Simplifies Real Estate with Seamless Transactions, Investments, and Property Monetization</p>
+            <p style={{color : 'white'}}><strong style={{color : 'white'}}>Aarvasa</strong> Simplifies Real Estate with Seamless Transactions, Investments, and Property Monetization</p>
             <img src="houseas.png" alt="Building" className="center-img" />
             <button>Contact Us</button>
         </div>
@@ -221,7 +223,18 @@ const AboutUs = () => {
      </div>
 
     <div classname ="mapsabove-header">
-        <h1>Geographic Reach :</h1>
+        <h1>Geographic Reach :
+        <span
+      style={{
+        display: 'block',
+        width: '50px',
+        height: '4px',
+        backgroundColor: '#6C1E3C',
+        borderRadius: '5px',
+        marginTop: '5px',
+      }}
+    ></span>
+        </h1>
      </div>
      <div className="aboutusmap-section">
         <iframe
@@ -242,10 +255,31 @@ const AboutUs = () => {
      <div classname ="division">
       <CompanyPartners partners={partners} />
     </div>
-
     <div>
-        <h3 classname = "formhead-container">Contact Us:</h3>
-    </div>
+  <h3
+    className="formhead-container"
+    style={{
+      position: 'relative',
+      marginTop: '25px',
+      marginBottom: '10px',
+      fontSize: '2rem',
+      textAlign: 'left',
+    }}
+  >
+    Contact Us:
+    <span
+      style={{
+        display: 'block',
+        width: '50px',
+        height: '4px',
+        backgroundColor: '#6C1E3C',
+        borderRadius: '5px',
+        marginTop: '5px',
+      }}
+    ></span>
+  </h3>
+</div>
+
     <div>
     <section className="aboutusserconsultation">
                 <div className="aboutussercontent">
@@ -263,7 +297,7 @@ const AboutUs = () => {
                         <label htmlFor="date">DATE</label>
                         <input type="date" id="date" required />
                         
-                        <button type="submit">SEND</button>
+                        <button type="submit" style={{textAlign : "center"}}>Scheduling A Consultation</button>
                 </form>
             </div>
         </div>

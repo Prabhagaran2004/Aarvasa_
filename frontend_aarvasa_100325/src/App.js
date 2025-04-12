@@ -349,7 +349,7 @@ function App() {
                   <img src="/uday.jpg" alt="Team Member Image" />
                   <div className="social-media-container">
                     <a href="https://www.linkedin.com/in/udayprakashsahu/" target="_blank" className="social-icon">
-                      <i className="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                     </a>
                     <a href="http://x.com/udaysahu_" target="_blank" className="social-icon">
                       <i className="fab fa-twitter"></i>

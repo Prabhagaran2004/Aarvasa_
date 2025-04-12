@@ -12,7 +12,7 @@ const CompanyPartners = ({ partners }) => {
           {partners.map((partner, index) => (
             <div key={index} className="partner-card">
               <img src={partner.logo} alt={`${partner.name} logo`} />
-              <p>{partner.name}</p>
+              <p style={{color : "white"}}>{partner.name}</p>
             </div>
           ))}
         </div>

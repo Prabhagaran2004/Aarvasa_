@@ -40,19 +40,24 @@
 }
 
 .about-text {
-  background-color: #D6C1AA; /* Matching background color */
-  border-radius: 30px; /* Creates the oval shape */
-  padding: 20px; /* Add padding for text inside the oval */
-  color: #5A4636; /* Text color matches the uploaded design */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  flex: 1; /* Allow text to stretch and adjust within available space */
+  padding: 20px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1;
   transform: translateX(-150px);
+  position: absolute;
+  width: 910px;
+  height: 200px;
+  left: 600px;
+  /* top: 256px; */
+  background: linear-gradient(265.66deg, #692234 -1.91%, #A82E4F 108.35%);
+  border-radius: 32px;
 }
 
 .about-text p {
   font-size: 16px;
   line-height: 1.8;
-  color: #6C1E3C; /* Text color design */
+  color: #ffffff; /* Text color design */
   margin: 0;
 }
 
@@ -62,8 +67,11 @@
   margin-bottom: 10px; /* Add spacing below the header */
   text-align: center; /* Align text to the left */
   text-decoration: none; /* Remove any text underline */
-  border: none; /* Remove any extra border */
+  border: none;
+  color: #8C2841; /* Remove any extra border */
 }
+
+
 
 .mission-vision {
   display: flex;
@@ -83,7 +91,7 @@
 }
 
 .mission, .vision {
-  background-color: #C1A57B;
+  background-color: #A82E4F;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -91,7 +99,7 @@
 }
 
 .mission h3, .vision h3 {
-  background-color: #F5F0E1;
+  background-color: #FADC64;
   color: #6C1E3C;
   padding: 5px 10px;
   border-radius: 3px;
@@ -104,12 +112,12 @@
 }
 
 .center-card {
-  background-color: #C1A57B;
+  background-color: #A82E4F;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  height: 100%; /* Full height to match the combined height of the left column */
+  height: 410px; /* Full height to match the combined height of the left column */
 }
 
 .center-card img {
@@ -120,9 +128,9 @@
 }
 
 .center-card button {
-  background-color: #6C1E3C;
   transform: translateY(-330px);
   color: white;
+  background: linear-gradient(273.52deg, #F7A240 -9.2%, #F5C01A 105.38%);
   border: none;
   padding: 10px 20px;
   border-radius: 20px;
@@ -130,6 +138,9 @@
   cursor: pointer;
 }
 
+.center-img{
+  left: 100px;
+}
 .center-card button:hover {
   background-color: #4A1029;
 }
@@ -292,14 +303,14 @@
   width: 250px;
   height: 300px;
   display: flex;
+  border-radius: 20px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #F5F0E1;
+  background-color: #dfded8;
   color: #6C1E3C;
   font-size: 16px;
   border: 3px solid #6C1E3C;
-  border-radius: 0;
   transition: transform 0.3s ease;
 }
 
@@ -321,12 +332,14 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
   transition: transform 0.3s ease;
 }
-
+/* 
 .image-container:hover img {
-  transform: scale(1.1); /* Slight zoom effect */
-}
+  transform: scale(1.1);
+  border-radius: 20px 20px 0px 0px;
+} */
 
 .social-media-container {
   position: absolute;
@@ -337,6 +350,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px 20px 0px 0px;
   background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -363,8 +377,9 @@
 .info-container {
   width: 100%;
   height: 30%;
-  background-color: #C1A57B;
+  background-color:#8C2841CC;
   color: black;
+  border-radius: 0px 0px 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -375,12 +390,12 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #6C1E3C 
+  color: #ffffff 
 }
 
 .designation {
   font-size: 14px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .mapsabove-header h1 {
@@ -441,6 +456,7 @@
   height: 4px; /* Thickness of the line */
   background-color: #6C1E3C; /* Line color */
   border-radius: 5px;
+  font-size: 2rem;
   margin-top: 5px; /* Space between the text and the line */
 }
 
@@ -534,7 +550,7 @@ label{
   font-family: "Inter";
   font-size: medium;
   font-weight: bold;
-  color: #8b0000;
+  color: #6C1E3C;
 }
 
 input {

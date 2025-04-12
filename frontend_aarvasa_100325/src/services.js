@@ -11,6 +11,20 @@ const Services = () => {
     <div class="services">
     <div class="serviceone">
       <div class="serleftpart">
+      <div>
+        <h1>Who we are
+            <span
+          style={{
+            display: 'block',
+            width: '50px',
+            height: '4px',
+            backgroundColor: '#6C1E3C',
+            borderRadius: '5px',
+            marginTop: '5px',
+          }}
+        ></span>
+            </h1>
+        </div>
         <div class="seryellowbox">
           <h4 class="serinsidebutton">Built Dream And Securing Future</h4>
         </div>

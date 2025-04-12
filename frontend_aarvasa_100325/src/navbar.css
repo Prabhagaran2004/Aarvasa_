@@ -2,7 +2,7 @@
 .navbar {
     margin: 20px;
     border-radius: 50px; /* Adjusted for a more rounded navbar */
-    background-color: #C1A57B;
+    background-color: #fff1e3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,8 +24,18 @@
   .menu {
     display: flex;
     align-items: center;
-    gap: 20px; /* Adjusted for better spacing */
+    gap: 40px; /* Adjusted for better spacing */
     transform: translateX(+55px);
+  }
+
+  .login{
+    /* Ellipse 1 */
+      position: absolute;
+      width: 43px;
+      height: 43px;
+      right: 50px;
+      top: -21px;
+      box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.1);
   }
 
   .menu a {
@@ -55,15 +65,27 @@
   
   /* Contact Button */
   .contact-btn {
-    background-color: #7c4d4d;
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
+        /* Frame 1 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    left: 1300px;
+    top: 35px;
+
+    /* Buttom L2 */
+    background: linear-gradient(273.52deg, #F7A240 -9.2%, #F5C01A 105.38%);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+border-radius: 341px;
+
   }
   
   .contact-btn:hover {
